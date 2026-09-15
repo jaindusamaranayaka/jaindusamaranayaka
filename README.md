@@ -57,7 +57,7 @@ An Electronic and Telecommunication Engineering undergraduate at the University 
 ### 🤝 Community & Leadership
 
 - **Program Committee Member & Volunteer** at the IEEE Robotics and Automation Society (RAS) Student Branch Chapter.
-- Successfully organized the **Maze X Micromouse Competition** and its associated technical workshop series.
+- Successfully organized the **Maze X Micromouse Competition**.
 
 ---
 
