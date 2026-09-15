@@ -63,12 +63,13 @@ An Electronic and Telecommunication Engineering undergraduate at the University 
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaindusamaranayaka&show_icons=true&theme=nord" alt="Jaindu's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindusamaranayaka&layout=compact&theme=nord" alt="Top Languages" />
-</p>
+### 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jaindusamaranayaka&show_icons=true&theme=nord&v=1" alt="Jaindu's GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindusamaranayaka&layout=compact&theme=nord&v=1" alt="Top Languages" />
+</p>
 ---
 
 ### 📫 Connect With Me
