@@ -40,10 +40,12 @@
 <br>
 <br>
 
-<!-- Quick Link Action Buttons -->
+<!-- Quick Action Badges -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Website-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jaindusamaranayaka.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaindu-samaranayake-168782287)
 [![Email](https://img.shields.io/badge/Email-devnaka6912%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devnaka6912@gmail.com)
 [![University](https://img.shields.io/badge/Moratuwa-ENTC-800000?style=for-the-badge)](https://ent.uom.lk/)
+[![GitHub Repos](https://img.shields.io/badge/Repositories-All_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaindusamaranayaka?tab=repositories)
 
 </div>
 
@@ -59,13 +61,15 @@ NAME        : Jaindu Samaranayaka
 INSTITUTION : University of Moratuwa
 DEPARTMENT  : Electronic and Telecommunication Engineering (ENTC)
 SPECIALTY   : Bridging Hardware & Software Architecture
+PORTFOLIO   : https://jaindusamaranayaka.github.io/portfolio/
 ================================================================================
 ```
 
 I am an **Electronic and Telecommunication Engineering undergraduate** at the University of Moratuwa. I specialize in bridging hardware and software, with a strong focus on:
 - 🔬 **Digital System Design & ASIC/FPGA Development**: Designing custom RTL in SystemVerilog, synthesis, physical design, and hardware acceleration architectures.
-- 🧠 **Computer Vision & Machine Learning**: Building custom CNN image classifiers in Python/TensorFlow and researching stereo/disparity-based depth estimation.
-- 💻 **Computer Architecture**: Implementing pipelined & non-pipelined RISC processors from scratch with an open-source EDA flow.
+- 💻 **Computer Architecture**: Implementing [Pipelined & Non-Pipelined RISC Processors](https://github.com/jaindusamaranayaka/Pipelined--And-Non-pipelined-CPU) from scratch with an open-source EDA flow.
+- ⚡ **Neural Accelerators**: Engineering [CNN Accelerators with RISC-V SoC Integration](https://github.com/jaindusamaranayaka/CNN-Accelerator-with-RISC-V-SoC-Integration) featuring custom integer multiplier/divider cores and matrix units.
+- 🧠 **Computer Vision & Machine Learning**: Building custom [ConvNets Image Classifiers](https://github.com/jaindusamaranayaka/EN3150-ConvNets-Image-Classifier) and researching stereo [Disparity & Depth Estimation](https://github.com/jaindusamaranayaka/EN3160-Fitting-and-Alignment).
 - 🤖 **Robotics & Embedded Systems**: Designing multi-axis robotic arms, PCB layouts (Altium), 3D structural CAD (SolidWorks), and IoT architectures (ESP32, Raspberry Pi).
 
 ---
@@ -101,30 +105,32 @@ I am an **Electronic and Telecommunication Engineering undergraduate** at the Un
 <td width="50%" valign="top">
 
 #### ⚡ [Pipelined & Non-Pipelined RISC CPU](https://github.com/jaindusamaranayaka/Pipelined--And-Non-pipelined-CPU)
-Custom 16-bit RISC-like CPU in SystemVerilog driven through a complete end-to-end open-source ASIC flow:
+Custom 16-bit RISC processor in SystemVerilog driven through a complete end-to-end open-source ASIC physical design flow:
 - **Yosys**: Logic synthesis (RTL to gate-level netlist)
 - **OpenROAD**: Placement & Routing, floorplanning, CTS, global/detailed routing, and STA
-- **KLayout**: 2D GDSII silicon layout inspection & DRC
+- **KLayout**: 2D GDSII silicon layout inspection & DRC verification
 - **gds3xtrude + OpenSCAD**: 3D physical IC die rendering
 
 </td>
 <td width="50%" valign="top">
 
-#### ⚙️ FPGA CNN Accelerator
-Hardware-based Convolutional Neural Network accelerator designed for edge AI inference:
+#### ⚙️ [CNN Accelerator with RISC-V SoC Integration](https://github.com/jaindusamaranayaka/CNN-Accelerator-with-RISC-V-SoC-Integration)
+Hardware-based Convolutional Neural Network accelerator integrated with a RISC-V SoC for edge computing:
 - Custom generic integer multiplier & divider cores
-- Generic pipelined matrix multiplication processing elements
-- Optimized memory buffering and bandwidth utilization for high-throughput computing
+- Pipelined matrix multiplication processing elements
+- Optimized memory buffering and bandwidth utilization for high-throughput tensor operations
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 👁️ Computer Vision & ML Pipeline
-Deep learning and spatial intelligence research:
-- Replicating academic research on disparity-based depth estimation using multi-view stereo image processing
-- Developed custom Python/TensorFlow CNN classifiers utilizing regression and classification models
+#### 👁️ Computer Vision & Machine Learning
+Deep learning, stereo disparity, and spatial intelligence research:
+- 🧠 **[ConvNets Image Classifier](https://github.com/jaindusamaranayaka/EN3150-ConvNets-Image-Classifier)**: Custom Python/TensorFlow CNN classifiers
+- 📐 **[Disparity & Depth Estimation](https://github.com/jaindusamaranayaka/EN3160-Fitting-and-Alignment)**: Stereo multi-view depth mapping
+- 🔍 **[Intensity Transforms & Filtering](https://github.com/jaindusamaranayaka/EN3160-A01-Intensity-Transformations-and-Neighborhood-Filtering)**: Image processing pipelines
+- 🔬 **[Neural Networks Architecture](https://github.com/jaindusamaranayaka/EN3160-Neural-Networks)**: Core network models and experimentation
 
 </td>
 <td width="50%" valign="top">
@@ -140,16 +146,18 @@ End-to-end electro-mechanical robotic arm engineering:
 <tr>
 <td width="50%" valign="top">
 
-#### 🏥 Automated Patient Monitoring Architecture
-- ESP32-based health parameter telemetry built for clinical research environments
+#### 🏥 [Automated Patient Monitoring (Cuffless BP)](https://github.com/jaindusamaranayaka/Development-of-a-ML-Model-for-Cuffless-SBP-and-DBP-Estimation-Using-Photoplethysmography-PPG-Signals)
+- Machine learning model for cuffless Systolic (SBP) and Diastolic (DBP) Blood Pressure estimation using Photoplethysmography (PPG) signals
+- ESP32 health parameter telemetry built for clinical research environments
 - Developed as an entrepreneurial innovation project for the **SPARK Challenge**
 
 </td>
 <td width="50%" valign="top">
 
-#### 💧 Smart Digital Water Metering
-- Real-time digital liquid flow tracking using a pulse output meter and GSM cellular module
-- Telemetry transmitted to an active cloud database deployed on **Railway**
+#### 💧 [Smart Digital Water Metering](https://github.com/jaindusamaranayaka/waterboard-management-system)
+- Real-time digital liquid flow tracking infrastructure utilizing pulse output meters and GSM cellular telemetry
+- Cloud database backend deployed on **Railway** with real-time analytics
+- Related: [CS2833 Laboratory Management System](https://github.com/jaindusamaranayaka/CS2833-Laboratory-Management-System)
 
 </td>
 </tr>
@@ -168,9 +176,10 @@ End-to-end electro-mechanical robotic arm engineering:
 
 Feel free to connect or reach out for collaborations in silicon design, embedded systems, or machine learning:
 
+- 🌐 **Portfolio**: [jaindusamaranayaka.github.io/portfolio](https://jaindusamaranayaka.github.io/portfolio/)
 - 💼 **LinkedIn**: [linkedin.com/in/jaindu-samaranayake-168782287](https://www.linkedin.com/in/jaindu-samaranayake-168782287)
 - ✉️ **Email**: [devnaka6912@gmail.com](mailto:devnaka6912@gmail.com)
-- 🌐 **GitHub**: [@jaindusamaranayaka](https://github.com/jaindusamaranayaka)
+- 🐙 **GitHub**: [@jaindusamaranayaka](https://github.com/jaindusamaranayaka)
 
 <br>
 
