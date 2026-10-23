@@ -1,23 +1,78 @@
-# 👋 Hi, I'm Jaindu Samaranayaka
+<div align="center">
 
-An Electronic and Telecommunication Engineering undergraduate at the University of Moratuwa. I specialize in bridging hardware and software, with a strong focus on **Digital System Design**, **ASIC/FPGA Development**, **Embedded Systems**, and **Machine Learning & Computer Vision**.
+<!-- ========================================== -->
+<!-- 1. LIVE ANIMATED CONTRIBUTION HEATMAP      -->
+<!-- ========================================== -->
+
+<h3><code>jaindu@moratuwa:~$ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Jaindu's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+<br>
+
+<!-- ========================================== -->
+<!-- 2. ASCII PORTRAIT + NEOFETCH TERMINAL CARD -->
+<!-- ========================================== -->
+
+<h3><code>jaindu@moratuwa:~$ whoami --profile</code></h3>
+
+<table>
+  <tr>
+    <td valign="top" width="420">
+      <img src="./jaindu-ascii.svg" width="420" alt="Jaindu Samaranayaka — Monochrome ASCII Portrait" />
+    </td>
+    <td valign="top" width="420">
+      <img src="./info-card.svg" width="420" alt="Jaindu Samaranayaka — Neofetch Info Card" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- Collapsible Live Streak Telemetry -->
+<details>
+  <summary><b>📈 Click to view GitHub Streak & Monthly Activity Telemetry</b></summary>
+  <br>
+  <img src="./stats.svg" width="860" alt="Jaindu's Live Streak and Activity Telemetry" />
+</details>
+
+<br>
+<br>
+
+<!-- Quick Link Action Buttons -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaindu-samaranayake-168782287)
+[![Email](https://img.shields.io/badge/Email-devnaka6912%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devnaka6912@gmail.com)
+[![University](https://img.shields.io/badge/Moratuwa-ENTC-800000?style=for-the-badge)](https://ent.uom.lk/)
+
+</div>
+
+<br>
 
 ---
 
-### 🚀 About Me
+### <code>jaindu@moratuwa:~$ cat about_me.txt</code>
 
-- 🎓 Studying **Electronic and Telecommunication Engineering**
-- 🧠 Exploring **Computer Vision & ML**: Building Python-based CNN image classifiers and replicating research on disparity-based depth estimation
-- 💻 Building a **CNN Accelerator on FPGA**, featuring custom generic integer multipliers/dividers and matrix multiplication architectures
-- 🔬 Developing **RISC CPU Architectures** (Pipelined & Non-Pipelined) using a complete Open-Source ASIC/EDA Flow
-- 🤖 Designing multi-axis robotic arms and end-to-end hardware solutions (Altium, SolidWorks)
-- 📡 Integrating IoT infrastructure (ESP32, Raspberry Pi) with cloud databases
+```txt
+================================================================================
+NAME        : Jaindu Samaranayaka
+INSTITUTION : University of Moratuwa
+DEPARTMENT  : Electronic and Telecommunication Engineering (ENTC)
+SPECIALTY   : Bridging Hardware & Software Architecture
+================================================================================
+```
+
+I am an **Electronic and Telecommunication Engineering undergraduate** at the University of Moratuwa. I specialize in bridging hardware and software, with a strong focus on:
+- 🔬 **Digital System Design & ASIC/FPGA Development**: Designing custom RTL in SystemVerilog, synthesis, physical design, and hardware acceleration architectures.
+- 🧠 **Computer Vision & Machine Learning**: Building custom CNN image classifiers in Python/TensorFlow and researching stereo/disparity-based depth estimation.
+- 💻 **Computer Architecture**: Implementing pipelined & non-pipelined RISC processors from scratch with an open-source EDA flow.
+- 🤖 **Robotics & Embedded Systems**: Designing multi-axis robotic arms, PCB layouts (Altium), 3D structural CAD (SolidWorks), and IoT architectures (ESP32, Raspberry Pi).
 
 ---
 
-### 🛠 Tech Stack & Tools
+### <code>jaindu@moratuwa:~$ ./list_hardware_and_tools.sh --all</code>
 
-#### Hardware, ASIC Flow & CAD
+#### ⚡ Hardware, ASIC Flow & CAD
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-00599C?style=for-the-badge)
 ![Intel Quartus](https://img.shields.io/badge/Intel_Quartus_Prime-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 ![Yosys](https://img.shields.io/badge/Yosys-2E8B57?style=for-the-badge)
@@ -28,7 +83,7 @@ An Electronic and Telecommunication Engineering undergraduate at the University 
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-E32227?style=for-the-badge)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 
-#### Software, Machine Learning & Backend
+#### 💻 Software, Machine Learning & Infrastructure
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -39,32 +94,86 @@ An Electronic and Telecommunication Engineering undergraduate at the University 
 
 ---
 
-### 📌 Featured Projects
+### <code>jaindu@moratuwa:~$ ./featured_projects.sh --details</code>
 
-- 👁️ **Computer Vision & ML Pipeline**: Replicating academic research on disparity-based depth estimation using advanced image processing techniques. Concurrently developing a custom Python/TensorFlow CNN image classifier utilizing regression and classification models.
-- ⚡ **[Pipelined & Non-Pipelined CPU](https://github.com/jaindusamaranayaka/Pipelined--And-Non-pipelined-CPU)**: Custom 16-bit RISC-like CPU in SystemVerilog driven by a full open-source ASIC flow: 
-  - **Yosys:** Logic synthesis (RTL to gate-level netlist)
-  - **OpenROAD:** P&R, floorplanning, CTS, routing, and STA
-  - **KLayout:** 2D GDSII layout viewer
-  - **gds3xtrude + OpenSCAD:** 3D physical chip rendering
-- ⚙️ **FPGA CNN Accelerator**: A hardware-based Convolutional Neural Network accelerator integrating custom generic integer multiplier/divider cores and generic matrix multiplication architectures for high-performance computing.
-- 🦾 **Robotic Arm Development**: End-to-end design and control of a robotic arm, combining structural 3D modeling for mechanical linkages with embedded microcontroller actuation.
-- 🏥 **Automated Patient Monitoring**: An ESP32-based health tracking architecture built for clinical research environments and developed as an entrepreneurial project for the SPARK Challenge.
-- 💧 **Smart Water Metering**: A digital flow tracking infrastructure utilizing a pulse output meter and GSM module to transmit real-time data to a cloud database deployed on Railway.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ [Pipelined & Non-Pipelined RISC CPU](https://github.com/jaindusamaranayaka/Pipelined--And-Non-pipelined-CPU)
+Custom 16-bit RISC-like CPU in SystemVerilog driven through a complete end-to-end open-source ASIC flow:
+- **Yosys**: Logic synthesis (RTL to gate-level netlist)
+- **OpenROAD**: Placement & Routing, floorplanning, CTS, global/detailed routing, and STA
+- **KLayout**: 2D GDSII silicon layout inspection & DRC
+- **gds3xtrude + OpenSCAD**: 3D physical IC die rendering
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ FPGA CNN Accelerator
+Hardware-based Convolutional Neural Network accelerator designed for edge AI inference:
+- Custom generic integer multiplier & divider cores
+- Generic pipelined matrix multiplication processing elements
+- Optimized memory buffering and bandwidth utilization for high-throughput computing
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 👁️ Computer Vision & ML Pipeline
+Deep learning and spatial intelligence research:
+- Replicating academic research on disparity-based depth estimation using multi-view stereo image processing
+- Developed custom Python/TensorFlow CNN classifiers utilizing regression and classification models
+
+</td>
+<td width="50%" valign="top">
+
+#### 🦾 Multi-Axis Robotic Arm Development
+End-to-end electro-mechanical robotic arm engineering:
+- Structural 3D CAD kinematic modeling in SolidWorks for mechanical linkages
+- Actuation and closed-loop position control with embedded microcontrollers
+- Power delivery and motor driving circuitry integration
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏥 Automated Patient Monitoring Architecture
+- ESP32-based health parameter telemetry built for clinical research environments
+- Developed as an entrepreneurial innovation project for the **SPARK Challenge**
+
+</td>
+<td width="50%" valign="top">
+
+#### 💧 Smart Digital Water Metering
+- Real-time digital liquid flow tracking using a pulse output meter and GSM cellular module
+- Telemetry transmitted to an active cloud database deployed on **Railway**
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🤝 Community & Leadership
+### <code>jaindu@moratuwa:~$ cat community_and_leadership.log</code>
 
-- **Program Committee Member & Volunteer** at the IEEE Robotics and Automation Society (RAS) Student Branch Chapter.
-- Successfully organized the **Maze X Micromouse Competition**.
+- 🏅 **Program Committee Member & Volunteer** — IEEE Robotics and Automation Society (RAS) Student Branch Chapter.
+- 🏁 **Event Organizer** — Successfully organized the national **Maze X Micromouse Competition**, coordinating autonomous maze-solving robotics challenges.
 
 ---
 
+### <code>jaindu@moratuwa:~$ ./connect.sh</code>
 
-
-
-### 📫 Connect With Me
+Feel free to connect or reach out for collaborations in silicon design, embedded systems, or machine learning:
 
 - 💼 **LinkedIn**: [linkedin.com/in/jaindu-samaranayake-168782287](https://www.linkedin.com/in/jaindu-samaranayake-168782287)
-- ✉️ **Email**: `devnaka6912@gmail.com`
+- ✉️ **Email**: [devnaka6912@gmail.com](mailto:devnaka6912@gmail.com)
+- 🌐 **GitHub**: [@jaindusamaranayaka](https://github.com/jaindusamaranayaka)
+
+<br>
+
+<div align="center">
+<sub>Automated SVG telemetry auto-refreshed daily via GitHub Actions ⚙️</sub>
+</div>
