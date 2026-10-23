@@ -2,8 +2,9 @@
 """
 Render a terminal neofetch-style info card SVG (840 x 880) that sits beside jaindu-ascii.svg.
 Pixel-perfect alignment with two-column layout, high-legibility typography,
-robust SMIL + CSS fade-in animations, and classic Neofetch ANSI color blocks.
+XML-escaped text nodes (fully validated SVG/XML), and classic Neofetch ANSI color blocks.
 """
+import html
 import json
 import os
 import sys
@@ -13,7 +14,7 @@ DATA_PATH = os.path.join(HERE, "..", "data", "contributions.json")
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "info-card.svg")
 
 # Load live stats if available
-stats_summary = "90 Contributions · 3d Streak"
+stats_summary = "91 Contributions · 3d Streak"
 if os.path.exists(DATA_PATH):
     try:
         with open(DATA_PATH, "r", encoding="utf-8") as f:
@@ -102,11 +103,13 @@ line_height = 46
 
 for idx, (k, v, col) in enumerate(fields):
     delay = 0.1 + idx * 0.08
+    safe_k = html.escape(k)
+    safe_v = html.escape(v)
     parts.append(
         f'<g class="row" style="animation-delay: {delay:.2f}s">'
-        f'<text x="{KEY_X}" y="{curr_y}" font-size="20" font-weight="700" fill="{col}">{k}</text>'
+        f'<text x="{KEY_X}" y="{curr_y}" font-size="20" font-weight="700" fill="{col}">{safe_k}</text>'
         f'<text x="{COLON_X}" y="{curr_y}" font-size="20" font-weight="600" fill="{MUTED}">:</text>'
-        f'<text x="{VAL_X}" y="{curr_y}" font-size="20" font-weight="400" fill="{INK}">{v}</text>'
+        f'<text x="{VAL_X}" y="{curr_y}" font-size="20" font-weight="400" fill="{INK}">{safe_v}</text>'
         f'</g>'
     )
     curr_y += line_height
